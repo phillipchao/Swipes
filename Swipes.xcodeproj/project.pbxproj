@@ -13,6 +13,24 @@
 		06556E321D95DC3D00D07D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06556E311D95DC3D00D07D53 /* Assets.xcassets */; };
 		06556E351D95DC3D00D07D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06556E331D95DC3D00D07D53 /* LaunchScreen.storyboard */; };
 		06556E401D95DC3D00D07D53 /* SwipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556E3F1D95DC3D00D07D53 /* SwipesTests.swift */; };
+		06556E5D1D95E05600D07D53 /* Proxima Nova Fonts Collection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06556E4B1D95E05600D07D53 /* Proxima Nova Fonts Collection.jpg */; };
+		06556E5E1D95E05600D07D53 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E4C1D95E05600D07D53 /* ProximaNova-Black.otf */; };
+		06556E5F1D95E05600D07D53 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E4D1D95E05600D07D53 /* ProximaNova-Bold.otf */; };
+		06556E601D95E05600D07D53 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E4E1D95E05600D07D53 /* ProximaNova-BoldIt.otf */; };
+		06556E611D95E05600D07D53 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E4F1D95E05600D07D53 /* ProximaNova-Extrabold.otf */; };
+		06556E621D95E05600D07D53 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E501D95E05600D07D53 /* ProximaNova-Light.otf */; };
+		06556E631D95E05600D07D53 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E511D95E05600D07D53 /* ProximaNova-LightItalic.otf */; };
+		06556E641D95E05600D07D53 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E521D95E05600D07D53 /* ProximaNova-RegItalic.otf */; };
+		06556E651D95E05600D07D53 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E531D95E05600D07D53 /* ProximaNova-Regular.otf */; };
+		06556E661D95E05600D07D53 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E541D95E05600D07D53 /* ProximaNova-RegularItalic.otf */; };
+		06556E671D95E05600D07D53 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E551D95E05600D07D53 /* ProximaNova-Semibold.otf */; };
+		06556E681D95E05600D07D53 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E561D95E05600D07D53 /* ProximaNova-SemiboldItalic.otf */; };
+		06556E691D95E05600D07D53 /* ProximaNovaCond-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E571D95E05600D07D53 /* ProximaNovaCond-Light.otf */; };
+		06556E6A1D95E05600D07D53 /* ProximaNovaCond-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E581D95E05600D07D53 /* ProximaNovaCond-LightIt.otf */; };
+		06556E6B1D95E05600D07D53 /* ProximaNovaCond-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E591D95E05600D07D53 /* ProximaNovaCond-Regular.otf */; };
+		06556E6C1D95E05600D07D53 /* ProximaNovaCond-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E5A1D95E05600D07D53 /* ProximaNovaCond-RegularIt.otf */; };
+		06556E6D1D95E05600D07D53 /* ProximaNovaCond-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E5B1D95E05600D07D53 /* ProximaNovaCond-Semibold.otf */; };
+		06556E6E1D95E05600D07D53 /* ProximaNovaCond-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06556E5C1D95E05600D07D53 /* ProximaNovaCond-SemiboldIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,24 @@
 		06556E3B1D95DC3D00D07D53 /* SwipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06556E3F1D95DC3D00D07D53 /* SwipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipesTests.swift; sourceTree = "<group>"; };
 		06556E411D95DC3D00D07D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06556E4B1D95E05600D07D53 /* Proxima Nova Fonts Collection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Proxima Nova Fonts Collection.jpg"; sourceTree = "<group>"; };
+		06556E4C1D95E05600D07D53 /* ProximaNova-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.otf"; sourceTree = "<group>"; };
+		06556E4D1D95E05600D07D53 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		06556E4E1D95E05600D07D53 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
+		06556E4F1D95E05600D07D53 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
+		06556E501D95E05600D07D53 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		06556E511D95E05600D07D53 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
+		06556E521D95E05600D07D53 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
+		06556E531D95E05600D07D53 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		06556E541D95E05600D07D53 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
+		06556E551D95E05600D07D53 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		06556E561D95E05600D07D53 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		06556E571D95E05600D07D53 /* ProximaNovaCond-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Light.otf"; sourceTree = "<group>"; };
+		06556E581D95E05600D07D53 /* ProximaNovaCond-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-LightIt.otf"; sourceTree = "<group>"; };
+		06556E591D95E05600D07D53 /* ProximaNovaCond-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Regular.otf"; sourceTree = "<group>"; };
+		06556E5A1D95E05600D07D53 /* ProximaNovaCond-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-RegularIt.otf"; sourceTree = "<group>"; };
+		06556E5B1D95E05600D07D53 /* ProximaNovaCond-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Semibold.otf"; sourceTree = "<group>"; };
+		06556E5C1D95E05600D07D53 /* ProximaNovaCond-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-SemiboldIt.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +117,7 @@
 				06556E2C1D95DC3D00D07D53 /* ViewController.swift */,
 				06556E2E1D95DC3D00D07D53 /* Main.storyboard */,
 				06556E311D95DC3D00D07D53 /* Assets.xcassets */,
+				06556E4A1D95E05600D07D53 /* Proxima Nova */,
 				06556E331D95DC3D00D07D53 /* LaunchScreen.storyboard */,
 				06556E361D95DC3D00D07D53 /* Info.plist */,
 			);
@@ -94,6 +131,31 @@
 				06556E411D95DC3D00D07D53 /* Info.plist */,
 			);
 			path = SwipesTests;
+			sourceTree = "<group>";
+		};
+		06556E4A1D95E05600D07D53 /* Proxima Nova */ = {
+			isa = PBXGroup;
+			children = (
+				06556E4B1D95E05600D07D53 /* Proxima Nova Fonts Collection.jpg */,
+				06556E4C1D95E05600D07D53 /* ProximaNova-Black.otf */,
+				06556E4D1D95E05600D07D53 /* ProximaNova-Bold.otf */,
+				06556E4E1D95E05600D07D53 /* ProximaNova-BoldIt.otf */,
+				06556E4F1D95E05600D07D53 /* ProximaNova-Extrabold.otf */,
+				06556E501D95E05600D07D53 /* ProximaNova-Light.otf */,
+				06556E511D95E05600D07D53 /* ProximaNova-LightItalic.otf */,
+				06556E521D95E05600D07D53 /* ProximaNova-RegItalic.otf */,
+				06556E531D95E05600D07D53 /* ProximaNova-Regular.otf */,
+				06556E541D95E05600D07D53 /* ProximaNova-RegularItalic.otf */,
+				06556E551D95E05600D07D53 /* ProximaNova-Semibold.otf */,
+				06556E561D95E05600D07D53 /* ProximaNova-SemiboldItalic.otf */,
+				06556E571D95E05600D07D53 /* ProximaNovaCond-Light.otf */,
+				06556E581D95E05600D07D53 /* ProximaNovaCond-LightIt.otf */,
+				06556E591D95E05600D07D53 /* ProximaNovaCond-Regular.otf */,
+				06556E5A1D95E05600D07D53 /* ProximaNovaCond-RegularIt.otf */,
+				06556E5B1D95E05600D07D53 /* ProximaNovaCond-Semibold.otf */,
+				06556E5C1D95E05600D07D53 /* ProximaNovaCond-SemiboldIt.otf */,
+			);
+			path = "Proxima Nova";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,14 +203,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Phillip Chao";
 				TargetAttributes = {
 					06556E261D95DC3D00D07D53 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5F8YMST7K7;
+						LastSwiftMigration = 0800;
 					};
 					06556E3A1D95DC3D00D07D53 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5F8YMST7K7;
+						LastSwiftMigration = 0800;
 						TestTargetID = 06556E261D95DC3D00D07D53;
 					};
 				};
@@ -178,8 +244,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				06556E351D95DC3D00D07D53 /* LaunchScreen.storyboard in Resources */,
+				06556E5E1D95E05600D07D53 /* ProximaNova-Black.otf in Resources */,
 				06556E321D95DC3D00D07D53 /* Assets.xcassets in Resources */,
+				06556E5F1D95E05600D07D53 /* ProximaNova-Bold.otf in Resources */,
+				06556E601D95E05600D07D53 /* ProximaNova-BoldIt.otf in Resources */,
+				06556E661D95E05600D07D53 /* ProximaNova-RegularItalic.otf in Resources */,
+				06556E651D95E05600D07D53 /* ProximaNova-Regular.otf in Resources */,
+				06556E6E1D95E05600D07D53 /* ProximaNovaCond-SemiboldIt.otf in Resources */,
+				06556E621D95E05600D07D53 /* ProximaNova-Light.otf in Resources */,
+				06556E5D1D95E05600D07D53 /* Proxima Nova Fonts Collection.jpg in Resources */,
+				06556E611D95E05600D07D53 /* ProximaNova-Extrabold.otf in Resources */,
+				06556E6C1D95E05600D07D53 /* ProximaNovaCond-RegularIt.otf in Resources */,
+				06556E6A1D95E05600D07D53 /* ProximaNovaCond-LightIt.otf in Resources */,
 				06556E301D95DC3D00D07D53 /* Main.storyboard in Resources */,
+				06556E681D95E05600D07D53 /* ProximaNova-SemiboldItalic.otf in Resources */,
+				06556E6B1D95E05600D07D53 /* ProximaNovaCond-Regular.otf in Resources */,
+				06556E631D95E05600D07D53 /* ProximaNova-LightItalic.otf in Resources */,
+				06556E691D95E05600D07D53 /* ProximaNovaCond-Light.otf in Resources */,
+				06556E641D95E05600D07D53 /* ProximaNova-RegItalic.otf in Resources */,
+				06556E671D95E05600D07D53 /* ProximaNova-Semibold.otf in Resources */,
+				06556E6D1D95E05600D07D53 /* ProximaNovaCond-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +338,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -299,8 +385,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -319,6 +407,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -327,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F8YMST7K7;
 				INFOPLIST_FILE = Swipes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phillipchao.Swipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F8YMST7K7;
 				INFOPLIST_FILE = Swipes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phillipchao.Swipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -349,10 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5F8YMST7K7;
 				INFOPLIST_FILE = SwipesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phillipchao.SwipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipes.app/Swipes";
 			};
 			name = Debug;
@@ -361,10 +458,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5F8YMST7K7;
 				INFOPLIST_FILE = SwipesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phillipchao.SwipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipes.app/Swipes";
 			};
 			name = Release;
@@ -388,6 +487,7 @@
 				06556E461D95DC3D00D07D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06556E471D95DC3D00D07D53 /* Build configuration list for PBXNativeTarget "SwipesTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +496,7 @@
 				06556E491D95DC3D00D07D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

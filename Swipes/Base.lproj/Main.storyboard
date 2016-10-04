@@ -1,25 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNova-Bold.otf">
+            <string>ProximaNova-Bold</string>
+        </array>
+        <array key="ProximaNova-Semibold.otf">
+            <string>ProximaNova-Semibold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swipes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectQuantity" translatesAutoresizingMaskIntoConstraints="NO" id="ixT-I6-oc4">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="YZ9-cc-4LV"/>
+                                    <constraint firstAttribute="height" constant="110" id="lzu-11-5Bq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectQuantity" translatesAutoresizingMaskIntoConstraints="NO" id="FBP-C3-bVU"/>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Swipes Left for this Week" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="09H-i8-VXf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PB7-A6-CGM"/>
+                                    <constraint firstAttribute="width" constant="192" id="ZkK-nJ-Sps"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Swipes Used this Week" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-gO-mXu">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="2tQ-WH-zIZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="QB7-TG-48M"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdC-P7-R9s">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="45m-RD-Tgt"/>
+                                    <constraint firstAttribute="height" constant="90" id="Tby-Im-fU3"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="67"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nt3-zQ-d2w">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="3NY-aA-Y0Q"/>
+                                    <constraint firstAttribute="height" constant="44" id="SWf-ZJ-Y04"/>
+                                </constraints>
+                                <state key="normal" image="upArrow"/>
+                                <connections>
+                                    <action selector="upArrowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQm-3A-23K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s54-Xi-3pC">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="x2i-Rv-B8O"/>
+                                    <constraint firstAttribute="width" constant="62" id="yrq-SN-LF6"/>
+                                </constraints>
+                                <state key="normal" image="downArrow"/>
+                                <connections>
+                                    <action selector="downArrowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5K-M2-Njz"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="14" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yEQ-yj-dyL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="SSy-GN-hbw"/>
+                                    <constraint firstAttribute="height" constant="116" id="cFS-cq-eUt"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="100"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcY-dV-XJq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="1ak-v1-bsz"/>
+                                    <constraint firstAttribute="width" constant="180" id="36e-nD-dWP"/>
+                                </constraints>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="09H-i8-VXf" secondAttribute="bottom" constant="125" id="255-71-kUz"/>
+                            <constraint firstItem="09H-i8-VXf" firstAttribute="top" secondItem="yEQ-yj-dyL" secondAttribute="bottom" constant="26" id="9f2-fn-BhC"/>
+                            <constraint firstItem="ixT-I6-oc4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BBp-Ul-qIy"/>
+                            <constraint firstItem="nt3-zQ-d2w" firstAttribute="centerY" secondItem="kdC-P7-R9s" secondAttribute="centerY" id="JE9-jo-F0T"/>
+                            <constraint firstItem="ixT-I6-oc4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="Jno-F0-CyV"/>
+                            <constraint firstItem="09H-i8-VXf" firstAttribute="top" secondItem="FBP-C3-bVU" secondAttribute="bottom" constant="18" id="PlL-aA-DIY"/>
+                            <constraint firstItem="KcY-dV-XJq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TR4-Qj-Y6M"/>
+                            <constraint firstItem="ixT-I6-oc4" firstAttribute="leading" secondItem="s54-Xi-3pC" secondAttribute="trailing" constant="20" id="UtR-2B-a9h"/>
+                            <constraint firstItem="09H-i8-VXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WOR-k7-sT3"/>
+                            <constraint firstItem="s54-Xi-3pC" firstAttribute="centerY" secondItem="ixT-I6-oc4" secondAttribute="centerY" id="WWH-rC-FRP"/>
+                            <constraint firstItem="uhi-gO-mXu" firstAttribute="top" secondItem="kdC-P7-R9s" secondAttribute="bottom" constant="25" id="grM-AI-ZfT"/>
+                            <constraint firstItem="uhi-gO-mXu" firstAttribute="top" secondItem="ixT-I6-oc4" secondAttribute="bottom" constant="18" id="m8A-Nj-18P"/>
+                            <constraint firstItem="nt3-zQ-d2w" firstAttribute="leading" secondItem="ixT-I6-oc4" secondAttribute="trailing" constant="20" id="nz4-CN-cz5"/>
+                            <constraint firstItem="kdC-P7-R9s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o4E-WM-oe9"/>
+                            <constraint firstItem="FBP-C3-bVU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qCc-dz-pJr"/>
+                            <constraint firstItem="uhi-gO-mXu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rmC-e3-50Q"/>
+                            <constraint firstItem="yEQ-yj-dyL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u4n-lA-WkE"/>
+                            <constraint firstItem="KcY-dV-XJq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xl9-cU-tjc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomIntText" destination="yEQ-yj-dyL" id="oc7-Dh-6Ng"/>
+                        <outlet property="mealPlanPickerView" destination="KcY-dV-XJq" id="4s4-3t-q1r"/>
+                        <outlet property="topIntText" destination="kdC-P7-R9s" id="7X0-h3-hc8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="304.34782608695656" y="388.85869565217394"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="downArrow" width="78" height="66"/>
+        <image name="rectQuantity" width="178" height="135"/>
+        <image name="upArrow" width="78" height="66"/>
+    </resources>
 </document>
